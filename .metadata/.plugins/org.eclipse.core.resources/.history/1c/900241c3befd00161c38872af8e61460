@@ -1,0 +1,9 @@
+package com.udemy.service.impl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+@Service("userService")
+public class UserService implements UserDetailsService {
+
+}
